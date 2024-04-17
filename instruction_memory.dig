@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>LAYOUT</shapeType>
+    </entry>
+    <entry>
+      <string>romContent</string>
+      <romList>
+        <roms/>
+      </romList>
+    </entry>
+    <entry>
+      <string>Height</string>
+      <int>5</int>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>5</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-0</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>100513,250513,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="3080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>300513,600593,b50533,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="3220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>8</int>
+        </entry>
+      </elementAttributes>
+      <pos x="34380" y="3080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>D</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="35480" y="3300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="3120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="3260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="35320" y="3140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>PROG</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="34760" y="2940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-2</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>100513,200593,8000ef,c0001073,b50533,8067</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="3340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="3380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>300513,700593,2b50533,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="3460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="3500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-4</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>100593,200613,c59533,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="3580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="3620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-5</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>800593,100613,c5d533,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="3700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="3740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-6</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>100593,359513,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="3840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="3880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-7</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>2000593,25d513,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="3960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="4000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-8</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>100513,80006f,513,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="4080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="4120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-9</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>100513,100593,b50463,513,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="4200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="4240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-10</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>100513,200593,b54463,513,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="4320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="4360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-11</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>200513,100593,b55463,513,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="4440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="4480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-12</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>8000113,ff810113,513,6300293,513023,13503,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="4560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="4600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-13</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>8000113,ff810113,513,6300293,512023,12503,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="4680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="4720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes>
+        <entry>
+          <string>AddrBits</string>
+          <int>8</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>unit-14</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>Data</string>
+          <data>8000113,ff810113,513,6300293,5101a3,310503,c0001073</data>
+        </entry>
+      </elementAttributes>
+      <pos x="34740" y="4800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="34660" y="4840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="35280" y="3500"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="34860" y="3200"/>
+      <p2 x="35320" y="3200"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3840"/>
+      <p2 x="34740" y="3840"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="4480"/>
+      <p2 x="34740" y="4480"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3460"/>
+      <p2 x="34740" y="3460"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="4100"/>
+      <p2 x="34960" y="4100"/>
+    </wire>
+    <wire>
+      <p1 x="34380" y="3080"/>
+      <p2 x="34580" y="3080"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3080"/>
+      <p2 x="34740" y="3080"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="3720"/>
+      <p2 x="34900" y="3720"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="4360"/>
+      <p2 x="34740" y="4360"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3340"/>
+      <p2 x="34740" y="3340"/>
+    </wire>
+    <wire>
+      <p1 x="35000" y="3340"/>
+      <p2 x="35320" y="3340"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="3980"/>
+      <p2 x="34940" y="3980"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="3600"/>
+      <p2 x="34880" y="3600"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="4240"/>
+      <p2 x="34740" y="4240"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3220"/>
+      <p2 x="34740" y="3220"/>
+    </wire>
+    <wire>
+      <p1 x="34880" y="3220"/>
+      <p2 x="35320" y="3220"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="3860"/>
+      <p2 x="34920" y="3860"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="3480"/>
+      <p2 x="34860" y="3480"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="4120"/>
+      <p2 x="34740" y="4120"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="3100"/>
+      <p2 x="35300" y="3100"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="3740"/>
+      <p2 x="34740" y="3740"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="3360"/>
+      <p2 x="34840" y="3360"/>
+    </wire>
+    <wire>
+      <p1 x="35020" y="3360"/>
+      <p2 x="35320" y="3360"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="4000"/>
+      <p2 x="34740" y="4000"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="3620"/>
+      <p2 x="34740" y="3620"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="3240"/>
+      <p2 x="34820" y="3240"/>
+    </wire>
+    <wire>
+      <p1 x="34900" y="3240"/>
+      <p2 x="35320" y="3240"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="3880"/>
+      <p2 x="34740" y="3880"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="3500"/>
+      <p2 x="34740" y="3500"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="3120"/>
+      <p2 x="34740" y="3120"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="3380"/>
+      <p2 x="34740" y="3380"/>
+    </wire>
+    <wire>
+      <p1 x="35040" y="3380"/>
+      <p2 x="35320" y="3380"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="3260"/>
+      <p2 x="34740" y="3260"/>
+    </wire>
+    <wire>
+      <p1 x="34920" y="3260"/>
+      <p2 x="35320" y="3260"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4800"/>
+      <p2 x="34740" y="4800"/>
+    </wire>
+    <wire>
+      <p1 x="35300" y="3140"/>
+      <p2 x="35320" y="3140"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4680"/>
+      <p2 x="34740" y="4680"/>
+    </wire>
+    <wire>
+      <p1 x="35060" y="3400"/>
+      <p2 x="35320" y="3400"/>
+    </wire>
+    <wire>
+      <p1 x="34760" y="3020"/>
+      <p2 x="35340" y="3020"/>
+    </wire>
+    <wire>
+      <p1 x="34940" y="3280"/>
+      <p2 x="35320" y="3280"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4560"/>
+      <p2 x="34740" y="4560"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="4820"/>
+      <p2 x="35080" y="4820"/>
+    </wire>
+    <wire>
+      <p1 x="34820" y="3160"/>
+      <p2 x="35320" y="3160"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4440"/>
+      <p2 x="34740" y="4440"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="4700"/>
+      <p2 x="35060" y="4700"/>
+    </wire>
+    <wire>
+      <p1 x="35080" y="3420"/>
+      <p2 x="35320" y="3420"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4320"/>
+      <p2 x="34740" y="4320"/>
+    </wire>
+    <wire>
+      <p1 x="35360" y="3300"/>
+      <p2 x="35480" y="3300"/>
+    </wire>
+    <wire>
+      <p1 x="34960" y="3300"/>
+      <p2 x="35320" y="3300"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="4580"/>
+      <p2 x="35040" y="4580"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4200"/>
+      <p2 x="34740" y="4200"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="4840"/>
+      <p2 x="34740" y="4840"/>
+    </wire>
+    <wire>
+      <p1 x="34840" y="3180"/>
+      <p2 x="35320" y="3180"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="4460"/>
+      <p2 x="35020" y="4460"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4080"/>
+      <p2 x="34740" y="4080"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="4720"/>
+      <p2 x="34740" y="4720"/>
+    </wire>
+    <wire>
+      <p1 x="35280" y="3440"/>
+      <p2 x="35320" y="3440"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3700"/>
+      <p2 x="34740" y="3700"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="4340"/>
+      <p2 x="35000" y="4340"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3960"/>
+      <p2 x="34740" y="3960"/>
+    </wire>
+    <wire>
+      <p1 x="34980" y="3320"/>
+      <p2 x="35320" y="3320"/>
+    </wire>
+    <wire>
+      <p1 x="34660" y="4600"/>
+      <p2 x="34740" y="4600"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3580"/>
+      <p2 x="34740" y="3580"/>
+    </wire>
+    <wire>
+      <p1 x="34800" y="4220"/>
+      <p2 x="34980" y="4220"/>
+    </wire>
+    <wire>
+      <p1 x="34880" y="3220"/>
+      <p2 x="34880" y="3600"/>
+    </wire>
+    <wire>
+      <p1 x="35040" y="3380"/>
+      <p2 x="35040" y="4580"/>
+    </wire>
+    <wire>
+      <p1 x="34820" y="3160"/>
+      <p2 x="34820" y="3240"/>
+    </wire>
+    <wire>
+      <p1 x="34980" y="3320"/>
+      <p2 x="34980" y="4220"/>
+    </wire>
+    <wire>
+      <p1 x="35300" y="3100"/>
+      <p2 x="35300" y="3140"/>
+    </wire>
+    <wire>
+      <p1 x="34760" y="2940"/>
+      <p2 x="34760" y="3020"/>
+    </wire>
+    <wire>
+      <p1 x="34920" y="3260"/>
+      <p2 x="34920" y="3860"/>
+    </wire>
+    <wire>
+      <p1 x="35080" y="3420"/>
+      <p2 x="35080" y="4820"/>
+    </wire>
+    <wire>
+      <p1 x="34860" y="3200"/>
+      <p2 x="34860" y="3480"/>
+    </wire>
+    <wire>
+      <p1 x="35340" y="3020"/>
+      <p2 x="35340" y="3140"/>
+    </wire>
+    <wire>
+      <p1 x="35020" y="3360"/>
+      <p2 x="35020" y="4460"/>
+    </wire>
+    <wire>
+      <p1 x="34960" y="3300"/>
+      <p2 x="34960" y="4100"/>
+    </wire>
+    <wire>
+      <p1 x="35280" y="3440"/>
+      <p2 x="35280" y="3500"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3080"/>
+      <p2 x="34580" y="3220"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3220"/>
+      <p2 x="34580" y="3340"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4560"/>
+      <p2 x="34580" y="4680"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4080"/>
+      <p2 x="34580" y="4200"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4320"/>
+      <p2 x="34580" y="4440"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3340"/>
+      <p2 x="34580" y="3460"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3580"/>
+      <p2 x="34580" y="3700"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3840"/>
+      <p2 x="34580" y="3960"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4680"/>
+      <p2 x="34580" y="4800"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4200"/>
+      <p2 x="34580" y="4320"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="4440"/>
+      <p2 x="34580" y="4560"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3460"/>
+      <p2 x="34580" y="3580"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3700"/>
+      <p2 x="34580" y="3840"/>
+    </wire>
+    <wire>
+      <p1 x="34580" y="3960"/>
+      <p2 x="34580" y="4080"/>
+    </wire>
+    <wire>
+      <p1 x="34900" y="3240"/>
+      <p2 x="34900" y="3720"/>
+    </wire>
+    <wire>
+      <p1 x="35060" y="3400"/>
+      <p2 x="35060" y="4700"/>
+    </wire>
+    <wire>
+      <p1 x="34840" y="3180"/>
+      <p2 x="34840" y="3360"/>
+    </wire>
+    <wire>
+      <p1 x="35000" y="3340"/>
+      <p2 x="35000" y="4340"/>
+    </wire>
+    <wire>
+      <p1 x="34940" y="3280"/>
+      <p2 x="34940" y="3980"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
