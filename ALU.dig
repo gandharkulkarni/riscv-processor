@@ -243,20 +243,6 @@
       <pos x="1100" y="280"/>
     </visualElement>
     <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>64</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1100" y="260"/>
-    </visualElement>
-    <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
@@ -283,6 +269,20 @@
         </entry>
       </elementAttributes>
       <pos x="740" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>64</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1100" y="260"/>
     </visualElement>
   </visualElements>
   <wires>
