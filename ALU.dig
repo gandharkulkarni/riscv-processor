@@ -110,6 +110,10 @@
       <elementName>Mul</elementName>
       <elementAttributes>
         <entry>
+          <string>Signed</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Bits</string>
           <int>32</int>
         </entry>
