@@ -65,7 +65,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>bge</string>
+          <string>funct3</string>
         </entry>
         <entry>
           <string>Bits</string>
