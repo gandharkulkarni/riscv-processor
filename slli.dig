@@ -101,7 +101,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>7</int>
+          <int>6</int>
         </entry>
       </elementAttributes>
       <pos x="800" y="500"/>
@@ -115,7 +115,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>7</int>
+          <int>6</int>
         </entry>
         <entry>
           <string>intFormat</string>
@@ -157,11 +157,11 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>funct7</string>
+          <string>funct6</string>
         </entry>
         <entry>
           <string>Bits</string>
-          <int>7</int>
+          <int>6</int>
         </entry>
       </elementAttributes>
       <pos x="540" y="500"/>
