@@ -1523,6 +1523,10 @@
           <string>Bits</string>
           <int>64</int>
         </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
       </elementAttributes>
       <pos x="-4920" y="-1860"/>
     </visualElement>
@@ -3062,16 +3066,16 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
+          <string>Selector Bits</string>
+          <int>3</int>
         </entry>
         <entry>
           <string>Bits</string>
           <int>64</int>
         </entry>
         <entry>
-          <string>Selector Bits</string>
-          <int>3</int>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="-5420" y="-2660"/>
