@@ -8,7 +8,7 @@ void compile_error(char *err) {
 void compile_init(char* name) {
     char* main_filename = "codegen_main.s";
     compile_output_main(main_filename);
-    printf(".global codegen_func_s\n");
+    // printf(".global codegen_func_s\n");
     printf("codegen_func_s:\n");
     printf("%s:\n", name);
     printf("\taddi sp, sp, -8\n");
