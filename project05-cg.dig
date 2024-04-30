@@ -2875,7 +2875,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>IO_A0</string>
+          <string>ioA0</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2889,7 +2889,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>IO_A1</string>
+          <string>ioA1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2903,7 +2903,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>IO_A2</string>
+          <string>ioA2</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2917,7 +2917,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>IO_A3</string>
+          <string>ioA3</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2931,7 +2931,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>IO_A4</string>
+          <string>ioA4</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2945,7 +2945,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>IO_A5</string>
+          <string>ioA5</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2959,7 +2959,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>IO_A6</string>
+          <string>ioA6</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2973,7 +2973,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>IO_A7</string>
+          <string>ioA7</string>
         </entry>
         <entry>
           <string>Bits</string>
